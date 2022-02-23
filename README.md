@@ -9,15 +9,15 @@ A simple plugin to manage player bans, kicks, ...
 
 ## TO-DO
 
-> [✘] IP-BanGUI
-> [✘] HelpGUI
-> [✘] ability to give ban/kick/ip-ban reasons
-> [✘] TempBan
-> [✘] MuteGUI
-> [✘] search
-> [✘] a list of all players within a given radius
-> [✘] config
-> ...
+- BanGUI
+- HelpGUI
+- ability to give ban/kick/ip-ban reasons
+- TempBan
+- MuteGUI
+- search
+- a list of all players within a given radius
+- config
+- ...
 
 ## COMMANDS
 
