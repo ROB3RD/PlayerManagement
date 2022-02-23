@@ -33,7 +33,7 @@ The plugin is still under development, so it probably cannot be used on servers 
 
 ## SHOWCASE
 
-<iframe width="1231" height="517" src="https://www.youtube.com/embed/j2V4qilExNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://user-images.githubusercontent.com/96019838/155372168-c46585c3-6b71-4420-b930-1ba1b8b835e0.mp4
 
 ## SCREENSHOTS
 
