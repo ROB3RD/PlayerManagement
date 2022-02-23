@@ -3,11 +3,9 @@ A simple plugin to manage player bans, kicks, ...
 
 ##FEATURES
 
-> [✔] BanGUI
-
-> [✔] UnBanGUI
-
-> [✔] KickGUI
+- BanGUI
+- UnBanGUI
+- KickGUI
 
 ## TO-DO
 
