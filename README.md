@@ -31,7 +31,7 @@ The plugin is still under development, so it probably cannot be used on servers 
 
 ## SHOWCASE
 
-[MEDIA=youtube]j2V4qilExNU[/MEDIA]
+<iframe width="1231" height="517" src="https://www.youtube.com/embed/j2V4qilExNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## SCREENSHOTS
 
