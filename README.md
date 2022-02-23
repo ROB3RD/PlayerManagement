@@ -21,9 +21,9 @@ A simple plugin to manage player bans, kicks, ...
 
 ## COMMANDS
 
-> /ban - opens the ban gui
-> /unban - opens the unban gui
-> /kick - opens the kick gui
+> /ban - opens the ban gui 
+> /unban - opens the unban gui 
+> /kick - opens the kick gui 
 
 ## WARNING!
 
