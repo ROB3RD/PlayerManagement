@@ -1,0 +1,12 @@
+name: PlayerManagement
+version: '${project.version}'
+main: me.rob3rd.playermanagement.PlayerManagement
+api-version: 1.18
+authors: [ ROB3RD ]
+commands:
+  ban:
+    permission: playermanagement.bangui
+  kick:
+    permission: playermanagement.kickgui
+  unban:
+    permission: playermanagement.unbangui
