@@ -33,7 +33,7 @@ The plugin is still under development, so it probably cannot be used on servers 
 
 ## SHOWCASE
 
-https://user-images.githubusercontent.com/96019838/155372168-c46585c3-6b71-4420-b930-1ba1b8b835e0.mp4
+https://user-images.githubusercontent.com/96019838/155372569-66a8dedd-774b-4bf8-8bd0-fac48592f5ad.mov
 
 ## SCREENSHOTS
 
