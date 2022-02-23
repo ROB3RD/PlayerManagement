@@ -1,7 +1,7 @@
 # PlayerManagement
 A simple plugin to manage player bans, kicks, ...
 
-##FEATURES
+## FEATURES
 
 - BanGUI
 - UnBanGUI
