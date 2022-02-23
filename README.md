@@ -3,21 +3,21 @@ A simple plugin to manage player bans, kicks, ...
 
 ##FEATURES
 
-[✔] BanGUI
-[✔] UnBanGUI
-[✔] KickGUI
+> [✔] BanGUI
+> [✔] UnBanGUI
+> [✔] KickGUI
 
 ## TO-DO
 
-[✘] IP-BanGUI
-[✘] HelpGUI
-[✘] ability to give ban/kick/ip-ban reasons
-[✘] TempBan
-[✘] MuteGUI
-[✘] search
-[✘] a list of all players within a given radius
-[✘] config
-...
+> [✘] IP-BanGUI
+> [✘] HelpGUI
+> [✘] ability to give ban/kick/ip-ban reasons
+> [✘] TempBan
+> [✘] MuteGUI
+> [✘] search
+> [✘] a list of all players within a given radius
+> [✘] config
+> ...
 
 ## COMMANDS
 
