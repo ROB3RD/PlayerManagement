@@ -1,5 +1,7 @@
 package me.rob3rd.playermanagement.utils;
 
+import lombok.experimental.UtilityClass;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -10,14 +12,12 @@ import java.util.UUID;
 /**
  * Helper-class for getting names of players.
  */
+
+@UtilityClass
 public final class NameFetcher {
 
     private static final String NAME_URL = "https://sessionserver.mojang.com"
             + "/session/minecraft/profile/";
-
-    private NameFetcher() {
-        throw new UnsupportedOperationException();
-    }
 
     /**
      * Returns the name of the searched player.
@@ -25,7 +25,7 @@ public final class NameFetcher {
      * @param uuid The UUID of a player.
      * @return The name of the given player.
      */
-    public static String getName(UUID uuid) {
+    public String getName(UUID uuid) {
         return getName(uuid.toString());
     }
 
@@ -35,7 +35,7 @@ public final class NameFetcher {
      * @param uuid The UUID of a player (can be trimmed or the normal version).
      * @return The name of the given player.
      */
-    public static String getName(String uuid) {
+    public String getName(String uuid) {
         uuid = uuid.replace("-", "");
         String output = callURL(NAME_URL + uuid);
         StringBuilder result = new StringBuilder();
@@ -57,7 +57,7 @@ public final class NameFetcher {
         return result.toString();
     }
 
-    private static String callURL(String urlStr) {
+    private String callURL(String urlStr) {
         StringBuilder sb = new StringBuilder();
         URLConnection urlConn;
         InputStreamReader in;
@@ -83,5 +83,4 @@ public final class NameFetcher {
         }
         return sb.toString();
     }
-
 }

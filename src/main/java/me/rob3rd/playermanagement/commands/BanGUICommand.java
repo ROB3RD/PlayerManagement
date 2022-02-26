@@ -6,21 +6,14 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class UnbanGUICommand implements CommandExecutor {
+public class BanGUICommand implements CommandExecutor {
 
     @Override
-
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-
         if (sender instanceof Player) {
-
             Player player = (Player) sender;
-
-            PlayerManagementUtils.openUnbanGUI(player);
-
+            PlayerManagementUtils.openBanGUI(player);
         }
-
         return true;
-
     }
 }

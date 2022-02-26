@@ -11,16 +11,11 @@ import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
 public class PlayerManagementBanJoinListener implements Listener {
 
     @EventHandler
-
     public void onPlayerJoin(AsyncPlayerPreLoginEvent event) {
-
         OfflinePlayer player = Bukkit.getOfflinePlayer(event.getUniqueId());
 
         if (player.isBanned()) {
-
             event.disallow(AsyncPlayerPreLoginEvent.Result.KICK_BANNED, PlayerManagementUtils.getPrefix() + "You were banned from the server!");
-
         }
     }
-
 }
