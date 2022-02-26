@@ -11,7 +11,6 @@ public final class PlayerManagement extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
         getCommand("ban").setExecutor(new BanGUICommand());
         getCommand("kick").setExecutor(new KickGUICommand());
         getCommand("unban").setExecutor(new UnbanGUICommand());
@@ -20,8 +19,4 @@ public final class PlayerManagement extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerManagementBanJoinListener(), this);
 
     }
-
-    @Override
-    public void onDisable() {}
-
 }
